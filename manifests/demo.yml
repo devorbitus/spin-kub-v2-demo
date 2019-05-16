@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: primary
-        image: gcr.io/hd-sqa-nonprod/github.com/billimek/spin-kub-v2-demo
+        image: gcr.io/hd-sqa-nonprod/github.com/devorbitus/spin-kub-v2-demo
         ports:
         - containerPort: 8000
         readinessProbe:
