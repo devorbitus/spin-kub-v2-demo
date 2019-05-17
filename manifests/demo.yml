@@ -29,6 +29,8 @@ spec:
         source: demo
         app: spinnaker
     spec:
+      imagePullSecrets:
+        - name: golden-registry
       containers:
       - name: primary
         image: gcr.io/hd-sqa-nonprod/github.com/devorbitus/spin-kub-v2-demo
